@@ -1,0 +1,132 @@
+body {
+    font-family: "Open Sans";
+    overflow-x: hidden;
+}
+
+#navlist{
+	border-bottom: solid #3c5999;
+}
+.table-wrapper{
+	overflow: auto;	
+}
+
+ #top-header {
+ 	background-color: #F5F5F5;
+ }
+ 
+ #top-header .info{
+ 	font-size: 1.3em;
+ 	color: #3C5999;
+ }
+ 
+ .navbar-default {
+ 	background-color: #ffffff;
+ }
+ 
+ .navbar-default .navbar-nav>li>a {
+ 	color: #000000;
+ }
+ 
+ .navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus {
+ 	color: #ffffff;
+ 	background-color: #3c5999;
+ }
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ 
+ .navbar {
+ 	border-radius: 0;
+ 	border-width: 0;
+ }
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ 
+ @media screen and (max-width: 767px) {
+ 	#navlist li a{
+ 		max-height: 40px;
+ 	}
+ 	#progress-bar-table{
+ 		min-height: 200px;
+ 	}
+ 	#header-left{
+ 		min-height: 50px;
+ 		display: flex;
+ 		align-items: center;
+ 		border-bottom: solid 1px gainsboro;
+ 	}
+ 	#header-right{
+ 		display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	#header-right form{
+ 		width: 90%;
+ 	}
+ }
+ 
+ @media screen and (min-width: 768px) {
+ 	#navlist {
+ 		display: table;
+ 		width: 100%;
+ 		table-layout: fixed;
+ 	}
+ 	#navlist li {
+ 		float: none;
+ 		display: table-cell;
+ 		width: 100%;
+ 	}
+ 	#top-header {
+ 		display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	#progress-bar-table{
+ 		min-height: 450px;
+ 	}
+ }
+ 
+ #navlist li {
+ 	text-align: center;
+ }
+ 
+ .post-head,
+ .post-head th,
+ .post-head td {
+ 	border: none !important;
+ }
+ 
+ .glyphicon-star {
+ 	color: yellow;
+ }
+ 
+ .progress-container, .button-foot{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+ 
+ .detail-header-left {
+ 	float: left;
+ 	margin-left: 20px;
+ }
+ 
+ .detail-header-right {
+ 	float: right;
+ 	margin-right: 20px;
+ }
+ 
+ .btn-next,.btn-prev{
+ 	min-width: 80px;
+ 	margin: 5px 10px 5px 10px;
+ }
+ 
+ #clear{
+ 	min-width: 70px;
+ 	border-radius: 0;
+ }
+.detail-header {
+    padding: 5px 15px 5px 15px;
+}
+
+.img-fluid{
+	padding: 5px 15px 5px 15px;
+}
